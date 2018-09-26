@@ -1,4 +1,4 @@
-# JavaScript Arrow Function
+# JavaScript Arrow Function (ES6)
 
 ## Advantages? Disadvantages? What's the big deal?
 
