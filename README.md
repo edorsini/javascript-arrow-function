@@ -216,6 +216,7 @@ var bootcamp = {
 };
 
 bootcamp.printYear();
+```
 
 ## So, what's the big deal?
 The short answer is that the syntax is shorter.  Therefore, less to write.
