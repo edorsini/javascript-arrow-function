@@ -117,27 +117,36 @@ console.log(sum.call(null, 1, 2, 3));
 
 Anyway, back to the topic of Arrow Functions.....
 
-// VARIATION #5: when using more than 1 parameter  (you need the parenthesis)
+### Variation #5: when using more than 1 parameter  (you need the parenthesis)
+```javascript
 var foo = (x, y) => 3;
+```
 
-// another variation coming soon?
-// FYI - headless arrow function is proposed... when you don't have a parameter...
+### Another variation coming soon?
+FYI - headless arrow function is proposed... when you don't have a parameter...
+```javascript
 var foo = => 3;
+```
 
-// VARIATION #6: when more than one statement, you need {}
+### Variation #6: when more than one statement, you need `{}`
+```javascript
 var foo = () => {
   console.log("statement 1");
   console.log("statement 2");
 }
+```
 
-// you need curly braces? then you need a return inside your block!
+### You need curly braces? then you need a return inside your block!
+```javascript
 var foo = () => {
   console.log("statement 1");
   console.log("statement 2");
   return 2; // <------- if you want to return something
 }
+```
 
-// This means you'll need to do `{}` and type `return` with try/catch blocks
+### This means you'll need to do `{}` and type `return` with try/catch blocks
+```
 var foo = () => {
   try {
     return 3;
@@ -146,10 +155,13 @@ var foo = () => {
   }
 }
 
-// VARIATION #7
+### Variation #7:
+```javascript
 var foo = x => { return 3; }
+```
 
-// VARIATION #8: when returning an object literal
+### Variation #8: when returning an object literal
+```javascript
 var foo = x => { y: 2 }; // you cannot do this!
 
 var foo = x => ({ y: 2 }); // you need to do this!
@@ -160,6 +172,7 @@ foo.name; // "foo"
 
 // no name inferencing:
 foo(x => 3)
+```
 
 // SO, where is the useful case???
 
