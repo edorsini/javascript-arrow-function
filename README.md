@@ -174,9 +174,10 @@ foo.name; // "foo"
 foo(x => 3)
 ```
 
-// SO, where is the useful case???
+### SO, where is the useful case???
 
-// consider this:
+Consider this:
+```javascript
 var bootcamp = {
   year: 2017,
   printYear: function printYear() {
@@ -187,10 +188,12 @@ var bootcamp = {
 };
 
 bootcamp.printYear(); // undefined
+```
 
-// OK, no problem...
+OK, no problem...
 
-// consider this:
+Consider this:
+```javascript
 var bootcamp = {
   year: 2017,
   printYear: function printYear() {
@@ -202,9 +205,12 @@ var bootcamp = {
 };
 
 bootcamp.printYear(); // 2017
+```
 
-// BUT, we CAN do better you say because we learned about bind() and that is part of the language.. 
-// so you don't need to manage a context variable...
+### BUT, we CAN do better you say because we learned about bind() and that is part of the language.. 
+So you don't need to manage a context variable...
+
+```javascript
 var bootcamp = {
   year: 2017,
   printYear: function printYear() {
@@ -216,9 +222,12 @@ var bootcamp = {
 };
 
 bootcamp.printYear(); // 2017
+```
 
-// WAIT for it... 
-// This IS where the arrow function shines!
+### WAIT for it... 
+**This IS where the arrow function shines!**
+
+```javascript
 var bootcamp = {
   year: 2017,
   printYear: function printYear() {
