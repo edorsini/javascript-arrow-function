@@ -216,7 +216,7 @@ var bootcamp = {
   printYear: function printYear() {
     var self = this;
     setTimeout(function() {
-      console.log(self.year);
+      console.log(this.year);
     }.bind(this), 2000);
   }
 };
