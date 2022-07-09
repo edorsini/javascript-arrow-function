@@ -242,5 +242,5 @@ bootcamp.printYear();
 
 ## So, what's the big deal?
 The short answer is that the syntax is shorter.  Therefore, less to write.
-There is one specific use case (covered later below) for the arrow function that makes a lot of sense. 
+There is one specific use case (covered above) for the arrow function that makes a lot of sense. 
 This use case will demonstrate the problem it is trying to solve.  Hint: it has to do with scope..
